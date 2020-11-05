@@ -1,0 +1,68 @@
+{
+	"name": "g-dark-theme-legacy",
+	"displayName": "G Dark-Theme (Legacy)",
+	"description": "Set of minimalistic abandoned themes of G Dark Theme for Visual Studio Code.",
+	"version": "1.0.0",
+	"publisher": "StoneC0der",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stoneC0der/g-dark-theme-legacy"
+	},
+	"keywords": [
+		"atom",
+		"dark",
+		"blue Whale",
+		"vscode",
+		"material",
+		"Midnight",
+		"Light",
+		"High Contrast",
+		"bold",
+		"solarize",
+		"black",
+		"night",
+		"indigo",
+		"purple"
+	],
+	"galleryBanner": {
+		"color": "#003248",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "G Dark (Cool Black)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/G-dark-cool-black.theme-color-theme.json"
+			},
+			{
+				"label": "G Dark OL (Dark Jungle Green)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/G-dark-dark-jungle-green.theme-color-theme.json"
+			},
+			{
+				"label": "G Dark NS (Mirage)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/G-dark-ns-mirage.theme-color-theme.json"
+			},
+			{
+				"label": "G Dark YB (Blue Charcoal)",
+				"uiTheme": "hc-black",
+				"path": "./themes/G-dark-blue-charcoal.theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "fb46a449-da21-4390-bffb-2641caa8969a",
+		"publisherDisplayName": "stonecoder",
+		"publisherId": "187efd80-7e14-4873-a62b-129be3a9858f"
+	}
+}

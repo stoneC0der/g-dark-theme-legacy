@@ -1,0 +1,9 @@
+*.log
+*.~lock
+**/*.map
+out/
+node_modules/
+.DS_Store
+test.txt
+.vsixmanifest
+*.vsix
